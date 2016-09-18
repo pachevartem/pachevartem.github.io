@@ -17,38 +17,15 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Домашняя</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3916556066"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=55612762" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4293765116" id="pagesheet"/>
    </head>
  <body>
 
   <div class="clearfix borderbox" id="page"><!-- column -->
-   <div class="browser_width" id="u94-bw">
-    <div class="pinned-colelem" id="u94"><!-- simple frame --></div>
+   <div class="clip_frame colelem" id="u162"><!-- image -->
+    <img class="block" id="u162_img" src="images/new%20mockup%201.jpg?crc=274168894" alt="" data-image-width="960" data-image-height="1700"/>
    </div>
-   <div class="clearfix colelem" id="u110-4"><!-- content -->
-    <p>Это верхняя панель</p>
-   </div>
-   <div class="clearfix colelem" id="pu107"><!-- group -->
-    <div class="browser_width grpelem" id="u107-bw">
-     <div id="u107"><!-- column -->
-      <div class="clearfix" id="u107_align_to_page">
-       <div class="clearfix colelem" id="u113-4"><!-- content -->
-        <p>Тут текст описывающий меня</p>
-       </div>
-       <div class="clearfix colelem" id="u119-7"><!-- content -->
-        <p>Очень много текста в котором говориться как круто уметь делать сайты и естественно ссылка на свою <a class="nonblock" href="http://vk.com">страницу</a>.</p>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="clip_frame grpelem" id="u97" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-48" data-mu-ie-matrix-dy="48"><!-- image -->
-     <img class="block" id="u97_img" src="images/mainphoto.jpg?crc=4038730922" alt="" data-image-width="192" data-image-height="288"/>
-    </div>
-   </div>
-   <div class="browser_width colelem" id="u122-bw">
-    <div id="u122"><!-- simple frame --></div>
-   </div>
-   <div class="verticalspacer" data-offset-top="462" data-content-above-spacer="462" data-content-below-spacer="0"></div>
+   <div class="verticalspacer" data-offset-top="1700" data-content-above-spacer="1700" data-content-below-spacer="0"></div>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -60,8 +37,6 @@ var muse_init=function(){require.config({baseUrl:""});require(["museutils","what
 window.Muse.assets.check();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.resizeHeight('.browser_width');/* resize height */
-Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
